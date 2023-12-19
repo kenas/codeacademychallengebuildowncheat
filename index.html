@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Libor Gess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <title>Libor's Web Dev Cheatsheet</title>
+</head>
+<body>
+    
+    <nav>
+        <span>Libor's Web Dev Cheatsheet</span>
+        <ul>
+            <li><a href="#html">html</a></li>
+            <li><a href="#css">css</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Challenge Project: Build Your Own Cheat Sheet</h1>
+    </header>
+        </div>
+
+    <main class="container">
+        <section id="html">
+            <h2>HTML - stands for HyperText Markup Language</h2>
+                <p>
+                    HTML is like the structure of the book itself. It's the backbone 
+                    that organizes everything. Just as the book's structure decides 
+                    where chapters, paragraphs, and pictures go, HTML determines where 
+                    the content, pictures, headings, and links will be placed on the webpage. 
+                    HTML is the framework that gives order and meaning to the story, 
+                    setting the stage for CSS (the illustrations) to make it 
+                    visually appealing.
+                </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tags</th>
+                        <th>Descriptions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td><code>&lt;!DOCTYPE html&gt;</code></pre></td>
+                        <td>as the book's table of contents or the cover page description. 
+                            It tells the browser about the type of document it's going to read, just 
+                            like the table of contents gives an overview of what chapters are in the book. 
+                            It sets the stage for the browser, saying, 
+                            "Hey, get ready to read an HTML5 book!" It's like the first page of 
+                            our book, providing the browser with information about the structure of 
+                            the content it's about to display.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;header&gt;</code></pre></td>
+                        <td>as the title of the book. It's at the top of the webpage and 
+                            usually holds important info like the title of the story 
+                            (the website's name) and maybe some chapter titles 
+                            (like links to different parts of the site). 
+                            It's like the big, bold title at the top of each page 
+                            n a book that tells you what the page is all about!
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;title&gt;</code></pre></td>
+                        <td>is like the title of the book. It appears at the top of the browser 
+                            tab and tells readers (or in this case, users) what the page is all about. 
+                            It's the name of our book that appears on the cover, helping people know 
+                            what they're reading
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><code>&lt;/title&gt;</code></pre></td>
+                        <td>is like closing the cover of the book. It encapsulates the 
+                            title, signaling the end of the title declaration within the HTML 
+                            document. It's a closing tag that tells the browser that the title 
+                            content is complete and everything within the <code>&lt;title&gt;</code> tags represents the title of the webpage.</td>
+                    </tr>
+
+                    <td><pre><code>&lt;/header&gt;</code></pre></td>
+                        <td>
+                            is like the end of the title page. It finishes off the top part 
+                            of the webpage where all the important introductory info is stored.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;body&gt;</code></pre></td>
+                        <td>
+                            is where the story really happens in our web book. 
+                            It's like all the pages filled with the adventure, 
+                            pictures, and words. Everything you see and read on a 
+                            webpage, from the text to the images and even the fun stuff 
+                            like videos and games, happens inside the <code>&lt;body&gt;</code>. 
+                            It's where the exciting part of our online story unfolds!
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;a href=""&gt;&lt;/a&gt;</code></pre></td>
+                        <td>
+                            is like a magical portal or a hidden pathway within the story. 
+                            It's an anchor or a link that transports readers (or users) to another 
+                            part of the same book or even to a completely different book (webpage) when 
+                            clicked. Just as a magical portal in a book takes you to a different realm or 
+                            adventure, <code>&lt;a href=""&gt;</code> takes you to a different part of the story or even to a 
+                            different webpage on the internet when you click on it.</td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;img&gt;</code></pre></td>
+                        <td>
+                            is like an illustration or a picture within our book. 
+                            It's a visual element that brings the story to life by 
+                            displaying images. Just as illustrations in a book provide visual 
+                            context to the story, <code>&lt;img&gt;</code> in HTML displays images on the 
+                            webpage, helping to convey information or enhance the narrative 
+                            with visuals. Each <code>&lt;img&gt;</code> tag represents a different image, 
+                            just as each illustration in a book depicts a different scene or concept.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;/body&gt;</code></pre></td>
+                        <td>
+                            is like the end of the main story.
+                            It tells the computer, "Okay, that's the last page of the adventure!"
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;footer&gt;</code></pre></td>
+                        <td>
+                            is like the end of a book where you find the closing 
+                            remarks or a cool note from the author. It's at the bottom 
+                            of the webpage and often has things like contact info, 
+                            copyright details, or links to other important pages. 
+                            Just like the end of a story where you might find 
+                            the author's final words or a sneak peek at the next 
+                            adventure, <code>&lt;footer&gt;</code> wraps up our web page adventure!
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>&lt;/footer&gt;</code></pre></td>
+                        <td>
+                            is like the final note at the end of the book. 
+                            It's the closing section that wraps up the webpage, providing last-minute info or links.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><pre><code>&lt;/html&gt;</code></pre></td>
+                        <td>
+                            is like closing the cover of the book. It tells the computer that the whole 
+                            webpage is done. It's like saying, "That's the end of our website!"
+                        </td>
+                    </tr>
+
+
+                </tbody>
+
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="css">
+            <h2>CSS - stands for Cascading Style Sheets</h2>
+            <p>CSS is like the artist who paints illustrations in our book. 
+                It doesn't tell the story (like HTML does) but makes everything 
+                look awesome! Just like an artist adds colors, designs, 
+                and styles to the pages, CSS adds colors, fonts, layouts, 
+                and decorations to our webpage. It's what makes the webpage beautiful 
+                and captivating, making sure everything looks just right, like 
+                illustrations complementing a story in a book.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selectors</th>
+                        <th>Properties</th>
+                        <th>Values</th>
+                        <th>Descriptions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                   <tr>
+                        <td><pre><code>p</code></pre></td>
+                        <td><pre><code>font-family:</code></pre></td>
+                        <td><pre><code>Arial, Helvetica</code></pre></td>
+                        <td>Sets the font style for the story's paragraphs</td>
+                   </tr>
+
+                   <tr>
+                        <td><pre><code>a</code></pre></td>
+                        <td><pre><code>padding:</code></pre></td>
+                        <td><pre><code>10px, 2em</code></pre></td>
+                        <td>Adds space inside the links characters share</td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>ul</code></pre></td>
+                        <td><pre><code>display:</code></pre></td>
+                        <td><pre><code>block, inline, inline-block, flex, grid</code></pre></td>
+                        <td>Determines how lists (like chapters) are displayed</td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>li</code></pre></td>
+                        <td><pre><code>text-align:</code></pre></td>
+                        <td><pre><code>left, right, center</code></pre></td>
+                        <td>Aligns text within list items (like chapter titles)</td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>img</code></pre></td>
+                        <td><pre><code>width:</code></pre></td>
+                        <td><pre><code> 100px, 50%, 50px,</code></pre></td>
+                        <td>Sets the width of illustrations in the book </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>input</code></pre></td>
+                        <td><pre><code>height:</code></pre></td>
+                        <td><pre><code>2px, 2em, 3rem</code></pre></td>
+                        <td>Determines the height of special input fields</td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>button</code></pre></td>
+                        <td><pre><code>border-radius:</code></pre></td>
+                        <td><pre><code>5px, 10px</code></pre></td>
+                        <td>Creates rounded corners for buttons in the story </td>
+                    </tr>
+
+                    <tr>
+                        <td><pre><code>p</code></pre></td>
+                        <td><pre><code>background-color:</code></pre></td>
+                        <td><pre><code>red, #00ff00, hsl, hsla, rgb, rgba</code></pre></td>
+                        <td>Sets the background color for key parts of the story</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="resources">
+            <h2>Resources</h2>
+            <p>
+                Developers, by Developers <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web doc</a>
+                <br/>
+                Color use for the project <a href="https://147colors.com/" target="_blank">147 Colors</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Libor's Web Dev Cheatsheet, December 2023</p>
+    </footer>
+        </div>
+</body>
+</html>
