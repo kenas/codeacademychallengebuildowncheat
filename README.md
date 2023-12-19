@@ -1,1 +1,1 @@
-This project was done as a part of course.
+This project was done as a part of codecademy.com course.
